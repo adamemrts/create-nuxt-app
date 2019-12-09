@@ -23,7 +23,8 @@ module.exports = [
     message: 'Choose the package manager',
     choices: [
       { name: 'Yarn', value: 'yarn' },
-      { name: 'Npm', value: 'npm' }
+      { name: 'Npm', value: 'npm' },
+      { name: 'Pnpm', value: 'pnpm' }
     ],
     type: 'list',
     default: 'yarn'
